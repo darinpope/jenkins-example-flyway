@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   environment {
-    DB_CREDS=credentials('db-creds1')
+    DB_CREDS=credentials('db-creds')
   }
   stages {
     stage('Verify version') {
